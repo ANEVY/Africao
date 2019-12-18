@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="app">
-        <div class="top-nav">
+        {{-- <div class="top-nav">
             <nav class="navbar navbar-expand-md navbar-light shadow-lg">
                 <div class="container-fluid">
 
@@ -50,12 +50,13 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        </div> --}}
         <div class="main-nav">
-            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <nav class="navbar navbar-expand-md navbar-light  shadow-sm navbar-fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand" href="{{ url('/') }}" style="color:#80bb01">
+                        {{-- {{ config('app.name', 'AFRICAO') }} --}}
+                        {{ __('AFRICAO') }}
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                         <span class="navbar-toggler-icon"></span>
@@ -119,13 +120,69 @@
                 </div>
             </nav>
         </div>
-        <div class=""></div>
+        <div class="bottom-nav">
+            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+                <div class="container-fluid">
+                    {{-- <a class="navbar-brand" href="{{ url('/') }}">
+                        {{ config('app.name', 'Laravel') }}
+                    </a> --}}
+                    {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> --}}
+
+                    {{-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> --}}
+                        <!-- Left Side Of Navbar -->
+                        <ul class="navbar-nav mr-auto">
+                            <!-- Authentication Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Nursing cocoa') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Planting cocoa') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Growing cocoa') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Prunning cocao') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('How to dry') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Cocoa diseases') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Fighting black pods') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Markets & price') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Farmers communities') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Buyers') }}</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- Right Side Of Navbar -->
+                        <ul class="navbar-nav ml-auto">
+
+
+                        </ul>
+                    {{-- </div> --}}
+                </div>
+            </nav>
+        </div>
 
 
 
         <main class="py-4">
             @yield('content')
         </main>
+        @include('inc.footer')
     </div>
 </body>
 </html>

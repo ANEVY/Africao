@@ -1,3 +1,221 @@
+body{
+    font-family: 'PT Sans';
+    /* font-size: 16px; */
+    /* line-height: 26px; */
+    font-weight: 400;
+    font: 15px'PT Sans', sans-serif;
+    /* background-color: white; */
+    background-color: #fbfbfb;
+}
+
 .top-nav .navbar{
-    padding: 0.3rem 0.5rem;
+    padding:0rem 1.5rem !important;
+    background-color: #80bb01;
+}
+.main-nav .navbar{
+    padding:1rem 1.5rem !important;
+    background-color: #ffffff;
+
+}
+.bottom-nav .navbar{
+    padding: 0.5rem 1.6rem !important;
+    background-color: #80bb01!important;
+    /* color: #80bb01!important; */
+
+}
+.main-nav .navbar-expand-md .navbar-nav .nav-link{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    /* color: #fbfbfb!important; */
+    font-weight: 600!important;
+}
+.bottom-nav .navbar-expand-md .navbar-nav .nav-link{
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
+    color: #fbfbfb!important;
+}
+.home-carousel{
+    background-repeat: no-repeat;
+    background:url('/media/images/main-pic1.jpg') rgba(1, 5, 0, 0.5);
+    background-size:cover;
+    background-blend-mode: multiply;
+    color: aliceblue;
+}
+.py-4{
+    padding-top: 0rem !important;
+}
+.home-carousel .bottom-title{
+    margin-bottom: 10% !important;
+    line-height: 2rem;
+    letter-spacing: 1px;
+
+
+}
+.home-carousel .main-title{
+    /* Sharon1234 */
+   /* color: #80bb01 !important; */
+   color: white;
+   margin-top: 15% !important;
+    margin-bottom: 1% !important;
+    /* font-size: 50px; */
+    letter-spacing: 1.5px;
+    font-weight: bold;
+
+
+}
+.home-carousel .main-text{
+
+    padding: 0.1rem 1.5rem !important;
+
+}
+.button{
+    font-size: 16px !important;
+    background-color: #80bb01 !important;
+    color: white !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-weight: 600 !important;
+}
+.home-carousel .main-text button{
+    margin-bottom: 14%;
+}
+.signup-breadcrumb h6{
+    /* padding-bottom: 1.5rem; */
+    padding-top: 0.8rem;
+    font-size: 16px !important;
+}
+.signup-breadcrumb h6{
+    /* padding-bottom: 1.5rem; */
+    padding-top: 1.6rem;
+    font-size: 16px !important;
+}
+.signup-breadcrumb form{
+    /* padding-bottom: 1.5rem; */
+    padding-top: 0.8rem;
+    font-size: 16px !important;
+}
+.home-about{
+    padding:4rem 1.5rem !important;
+}
+ p{
+    line-height: 1.5rem;
+
+    letter-spacing: 1px;
+}
+h1{
+    padding-bottom: 2%;
+}
+.home-about-us-image{
+    background-image: url('/media/images/main-pic1.jpg');
+}
+.home-services{
+    padding:4rem 1.5rem !important;
+    background-color: white;
+}
+.home-appointment{
+    padding:4rem 1.5rem !important;
+    /* background-color: white;     */
+}
+.home-blog{
+    padding:4rem 1.5rem !important;
+    background-color: white;
+}
+.home-africao-aim{
+    padding:4rem 1.5rem !important;
+    background: url('/media/images/main-pic.jpg') rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fbfbfb;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+
+}
+.home-buyers-farmers{
+    background-color: #ffffff;
+    padding:4rem 1.5rem !important;
+}
+.home-buyers-farmers h3{
+    /* background-color: #ffffff; */
+    padding-top:2rem !important;
+
+}
+.home-buyers-farmers .row .col-md-6{
+    padding: 0rem!important;
+}
+.home-buyers-farmers .row .col-md-6 div{
+    padding-top: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.home-buyers-farmers .row .col-md-6 div ul{
+    padding-top: 2rem;
+    padding-left: 15px !important;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+}
+.home-buyers-farmers .row .col-md-6 div ul li{
+
+    padding-left: 1px !important;
+
+}
+.home-buyers-farmers .row .col-md-6 img{
+    height: 80vh!important;
+
+}
+.home-contactus{
+    padding:4rem 1.5rem !important;
+
+}
+.home-contactus p:first-child{
+    padding-top:2rem !important;
+
+}
+.home-contactus h1{
+    padding-bottom: 0.5%!important;
+}
+.footer{
+    background: url('/media/images/main-pic1.jpg') rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    /* color: #ccc; */
+    color: #eeeaea;
+    padding-top:4rem !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    /* position: fixed; */
+}
+.footer ul {
+    padding-left: 0px!important;
+    list-style: none;
+}
+.footer ul li .nav-link{
+    padding:0.5rem 0rem !important ;
+    /* color: #fbfbfb; */
+}
+/*  */
+@media(min-width:576px){
+    .home-carousel .main-title{
+        font-size: 30px;
+        text-align: justify!important;
+    }
+}
+@media(min-width:768px){
+    .home-carousel .main-title{
+        font-size: 30px;
+        text-align: justify!important;
+    }
+}
+@media(min-width:992px){
+    .home-carousel .main-title{
+        font-size: 30px;
+        text-align: justify!important;
+    }
+}
+@media(min-width:1200px){
+    .home-carousel .main-title{
+        font-size: 50px;
+    }
 }
