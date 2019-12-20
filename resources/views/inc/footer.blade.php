@@ -35,12 +35,36 @@
             </div>
             <div class="col-md-3">
                 <p><strong>Latest Blogs</strong></p>
-                <div class="card mb-3" >
+                <div class="card mb-1" >
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                      <img src="{{asset('media/images/main-pic1.jpg')}}" class=" mx-auto d-block img img-fluid red " alt="...">
+                      <div class="col-md-4 col-sm-12">
+                      <img src="{{asset('media/images/main-pic1.jpg')}}" class="  img img-fluid red " alt="...">
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-md-8 col-sm-12">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color:#212529;">Card title papy</h5>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-1" >
+                    <div class="row no-gutters">
+                      <div class="col-md-4 col-sm-12">
+                      <img src="{{asset('media/images/main-pic1.jpg')}}" class="  img img-fluid red " alt="...">
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color:#212529;">Card title papy</h5>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-1" >
+                    <div class="row no-gutters">
+                      <div class="col-md-4 col-sm-12">
+                      <img src="{{asset('media/images/main-pic1.jpg')}}" class="  img img-fluid red " alt="...">
+                      </div>
+                      <div class="col-md-8 col-sm-12">
                         <div class="card-body">
                           <h5 class="card-title" style="color:#212529;">Card title papy</h5>
                         </div>
