@@ -22,13 +22,13 @@
                         <a class="nav-link" href="{{ route('welcome') }}/">{{ __('Home') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">{{ __('Services') }}</a>
+                        <a class="nav-link" href="{{route('services')}}">{{ __('Services') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">{{ __('About') }}</a>
+                        <a class="nav-link" href="{{route('about')}}">{{ __('About') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">{{ __('Contact') }}</a>
+                        <a class="nav-link" href="{{route('contact')}}">{{ __('Contact') }}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">{{ __('Blog') }}</a>

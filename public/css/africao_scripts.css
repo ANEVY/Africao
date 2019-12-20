@@ -7,6 +7,10 @@ body{
     /* background-color: white; */
     background-color: #fbfbfb;
 }
+section{
+    padding:4rem 1.5rem !important;
+
+}
 
 .top-nav .navbar{
     padding:0rem 1.5rem !important;
@@ -52,6 +56,8 @@ body{
 
 }
 .home-carousel{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
     background-repeat: no-repeat;
     background:url('/media/images/main-pic1.jpg') rgba(1, 5, 0, 0.5);
     background-size:cover;
@@ -74,7 +80,7 @@ body{
     /* Sharon1234 */
    /* color: #80bb01 !important; */
    color: white;
-   margin-top: 14% !important;
+   margin-top: 5% !important;
     margin-bottom: 1% !important;
     /* font-size: 50px; */
     letter-spacing: 1.5px;
@@ -108,11 +114,12 @@ body{
     border: 1px solid #80bb01;
 }
 .home-carousel .main-text button{
-    margin-bottom: 14%;
+    margin-bottom: 6%;
 }
 .signup-breadcrumb{
     border-bottom: 1px solid  #12bd05;
     padding-bottom: 1.5rem;
+    padding-top: 0rem!important;
 }
 .signup-breadcrumb h6{
     /* padding-bottom: 1.5rem; */
@@ -130,7 +137,7 @@ body{
     font-size: 16px !important;
 }
 .home-about{
-    padding:4rem 1.5rem !important;
+    /* padding:4rem 1.5rem !important; */
 }
  p{
     line-height: 1.5rem;
@@ -139,17 +146,17 @@ body{
 }
 h1{
     padding-bottom: 2%;
-    border-bottom: 1px solid #12bd05 !important;
+    /* border-bottom: 1px solid #12bd05 !important; */
 }
 .home-about-us-image{
     background-image: url('/media/images/main-pic1.jpg');
 }
 .home-services{
-    padding:4rem 1.5rem !important;
+    /* padding:4rem 1.5rem !important; */
     background-color: white;
 }
 .home-appointment{
-    padding:4rem 1.5rem !important;
+    /* padding:4rem 1.5rem !important; */
     /* background-color: white;     */
 }
 .home-blog{
@@ -170,7 +177,7 @@ h1{
 }
 .home-buyers-farmers{
     background-color: #ffffff;
-    padding:4rem 1.5rem !important;
+    /* padding:4rem 1.5rem !important; */
 }
 .home-buyers-farmers h3{
     /* background-color: #ffffff; */
@@ -214,7 +221,7 @@ h1{
 
 }
 .home-contactus{
-    padding:4rem 1.5rem !important;
+    /* padding:4rem 1.5rem !important; */
 
 }
 .home-contactus p:first-child{
@@ -232,9 +239,9 @@ h1{
     /* color: #ccc; */
     color: #eeeaea;
     padding-top:4rem !important;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: 1rem;
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+    padding-bottom: 1rem!important;
 
     /* position: fixed; */
 }
@@ -254,11 +261,16 @@ padding: 0rem!important;
     margin-bottom: 0rem!important;
     }
 
-/*  */
+/* services */
+.services{
+    /* padding:4rem 1.5rem !important; */
+    background-color: #ffffff;
+
+}
 @media(min-width:576px){
     .home-carousel .main-title{
         font-size: 30px;
-        text-align: justify!important;
+        /* text-align: justify!important; */
     }
     .footer img{
         height: auto !important;
@@ -267,7 +279,7 @@ padding: 0rem!important;
 @media(min-width:768px){
     .home-carousel .main-title{
         font-size: 30px;
-        text-align: justify!important;
+
     }
     .footer img{
         height: auto !important;
@@ -276,7 +288,7 @@ padding: 0rem!important;
 @media(min-width:992px){
     .home-carousel .main-title{
         font-size: 30px;
-        text-align: justify!important;
+
     }
     .footer img{
         height: auto !important;
